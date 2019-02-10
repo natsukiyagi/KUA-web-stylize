@@ -1,9 +1,9 @@
-@page {
-  size: A4;
-  margin: 0;
-  padding: 0;
+@media print {
+  body {
+    background: #fff !important;
+  }
   #wrapper {
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     padding: 0;
     header {
@@ -19,7 +19,7 @@
       display: none;
     }
     #main {
-      border-top: 1px solid #ffffff !important; 
+      border-top: 1px solid #ffffff !important;
       #col-left {
         display: none;
       }
@@ -29,10 +29,7 @@
         position: relative;
         box-sizing: border-box;
         page-break-after: always;
-        width: 100vw;
-        padding-top: 35mm;
-        padding-left: 30mm;
-        padding-right: 30mm;
+        width: 100%;
         #path {
           display: none;
         }
@@ -65,6 +62,19 @@
         #content {
           h2 {
             display: none;
+          }
+          article {
+            .post-num,
+            .post-month {
+              position: relative;
+              text-align: left;
+              top: unset;
+              right: unset;
+            }
+            .post-title {
+              width: 100%;
+              padding: 20px 0 10px;
+            }
           }
         }
       }

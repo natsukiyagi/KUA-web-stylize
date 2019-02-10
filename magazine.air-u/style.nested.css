@@ -1,9 +1,8 @@
-@page {
-  size: A4;
-  margin: 0;
-  padding: 0;
+@media print {
+  body {
+    background: #fff !important; }
   #wrapper {
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     padding: 0; }
     #wrapper header {
@@ -24,10 +23,7 @@
         position: relative;
         box-sizing: border-box;
         page-break-after: always;
-        width: 100vw;
-        padding-top: 35mm;
-        padding-left: 30mm;
-        padding-right: 30mm; }
+        width: 100%; }
         #wrapper #main #content #path {
           display: none; }
         #wrapper #main #content #share {
@@ -44,4 +40,13 @@
     #wrapper footer {
       display: none; }
   .single #wrapper #main #content h2 {
-    display: none; } }
+    display: none; }
+  .single #wrapper #main #content article .post-num,
+  .single #wrapper #main #content article .post-month {
+    position: relative;
+    text-align: left;
+    top: unset;
+    right: unset; }
+  .single #wrapper #main #content article .post-title {
+    width: 100%;
+    padding: 20px 0 10px; } }
