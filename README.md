@@ -25,7 +25,7 @@
 1. [ZIPをダウンロード](https://github.com/natsukiyagi/anemo-print-stylize/archive/master.zip)し、任意の場所に解凍する
 1. Google ChromeのURLフォームに `chrome://extensions/` を入力する
 1. 右上に「デベロッパーモード」のスイッチがあるので、ONにする
-1. (1)で回答したフォルダを、ドラッグ&ドロップする
+1. (1)で解凍したフォルダを、ドラッグ&ドロップする
 
 ## Author
 
