@@ -16,10 +16,6 @@
 - 導入が若干面倒くさい
 - 他のユーザーが作成したCSSをワンクリックで導入することはできない
 
-## Demo
-
-![](https://user-images.githubusercontent.com/32827159/52531012-14bcda80-2d52-11e9-9f4c-b08049d43fd1.PNG)
-
 ## Usage
 
 1. [ZIPをダウンロード](https://github.com/natsukiyagi/anemo-print-stylize/archive/master.zip)し、任意の場所に解凍する
