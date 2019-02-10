@@ -1,0 +1,47 @@
+@page {
+  size: A4;
+  margin: 0;
+  padding: 0;
+  #wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    #wrapper header {
+      display: none; }
+    #wrapper #menu-bg {
+      display: none; }
+    #wrapper #menu {
+      display: none; }
+    #wrapper #menu-2 {
+      display: none; }
+    #wrapper #main {
+      border-top: 1px solid #ffffff !important; }
+      #wrapper #main #col-left {
+        display: none; }
+      #wrapper #main #content {
+        float: none;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+        page-break-after: always;
+        width: 100vw;
+        padding-top: 35mm;
+        padding-left: 30mm;
+        padding-right: 30mm; }
+        #wrapper #main #content #path {
+          display: none; }
+        #wrapper #main #content #share {
+          display: none; }
+        #wrapper #main #content article {
+          margin: 0;
+          width: 100%; }
+        #wrapper #main #content #single-menu {
+          display: none; }
+        #wrapper #main #content #info-related {
+          display: none; }
+        #wrapper #main #content #tag-cloud-2 {
+          display: none; }
+    #wrapper footer {
+      display: none; }
+  .single #wrapper #main #content h2 {
+    display: none; } }

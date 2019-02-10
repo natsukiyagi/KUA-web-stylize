@@ -1,0 +1,73 @@
+@page {
+  size: A4;
+  margin: 0;
+  padding: 0;
+  #wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    header {
+      display: none;
+    }
+    #menu-bg {
+      display: none;
+    }
+    #menu {
+      display: none;
+    }
+    #menu-2 {
+      display: none;
+    }
+    #main {
+      border-top: 1px solid #ffffff !important; 
+      #col-left {
+        display: none;
+      }
+      #content {
+        float: none;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+        page-break-after: always;
+        width: 100vw;
+        padding-top: 35mm;
+        padding-left: 30mm;
+        padding-right: 30mm;
+        #path {
+          display: none;
+        }
+        #share {
+          display: none;
+        }
+        article {
+          margin: 0;
+          width: 100%;
+        }
+        #single-menu {
+          display: none;
+        }
+        #info-related {
+          display: none;
+        }
+        #tag-cloud-2 {
+          display: none;
+        }
+
+      }
+    }
+    footer {
+      display: none;
+    }
+  }
+  .single {
+    #wrapper {
+      #main {
+        #content {
+          h2 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
