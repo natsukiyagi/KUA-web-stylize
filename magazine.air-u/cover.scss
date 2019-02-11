@@ -71,12 +71,35 @@
               top: unset;
               right: unset;
             }
+            .post-num {
+              font-size: 45pt;
+              span {
+                font-size: 15pt;
+              }
+            }
+            .post-month {
+              font-size: 13.5pt;
+            }
             .post-title {
               width: 100%;
               padding: 20px 0 10px;
+              h3 {
+                font-size: 24pt;
+                padding: 0;
+              }
             }
             .post-body {
               font-size: 11pt;
+              background: unset;
+              padding: 0;
+              h5 {
+                padding: 0;
+              }
+            }
+            .link-page {
+              &:last-child {
+                display: none;
+              }
             }
           }
         }
