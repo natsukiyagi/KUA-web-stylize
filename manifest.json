@@ -1,8 +1,13 @@
 {
   "name": "anemo-print-stylize",
   "author": "Natsuki Yagi",
-  "description": "chrome extension for customize CSS. Styling the web magazine of Kyoto Art and Design University for printing.",
-  "version": "1.0.0",
+  "description": "chrome extension for customize CSS. Styling the web sites for study at Kyoto Art and Design University.",
+  "version": "1.0.1",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
   "manifest_version": 2,
   "web_accessible_resources": ["*"],
   "permissions": ["storage"],
@@ -10,6 +15,14 @@
     {
       "matches": ["https://magazine.air-u.kyoto-art.ac.jp/feature/*"],
       "css": ["magazine.air-u/cover.nested.css"]
+    },
+    {
+      "matches": ["http://japan.eb.com/*"],
+      "css": ["britannica/article.nested.css"]
+    },
+    {
+      "matches": ["https://sns.air-u.kyoto-art.ac.jp/*"],
+      "css": ["sns.air-u/style.css"]
     }
   ]
 }
