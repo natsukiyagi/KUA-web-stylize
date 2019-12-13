@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css";
+/* Windows */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@font-face {
+  font-family: YuGothicM;
+  font-weight: normal;
+  src: local("YuGothic-Medium"), local("Yu Gothic Medium"), local("YuGothic-Regular");
+  /* Windows8.1ではMediumがないのでRegularを指定 */ }
+
+@font-face {
+  font-family: YuGothicM;
+  font-weight: bold;
+  src: local("YoGothic-Bold"), local("Yu Gothic");
+  /* Chrome用 */ }
+
+body {
+  float: none !important;
+  margin: 0 auto !important;
+  font-family: -apple-system, blinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", YuGothicM, YuGothic, Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.7 !important; }
+
+#header-logo {
+  line-height: 1 !important; }
+
+div.mbArticleContent {
+  font-size: 1rem !important;
+  line-height: 1.7 !important;
+  letter-spacing: 1.5px !important; }
+
+div.articleBottom {
+  line-height: 1 !important; }
+
+div#tocToggler .toc-plus-image {
+  margin-top: 5px !important; }
+
+div#tocToggler .toc-minus-image {
+  margin-top: 5px !important; }
+
+div.mbcontentHeader #mb-image {
+  margin-top: 5px;
+  margin-right: 5px !important; }
+
+#save-to-workspace {
+  margin-top: 11px !important; }
+
+#footer-search-cap-text #footer-search-text {
+  top: -36px !important; }
+
+div.contentAreaBrowse {
+  margin-left: 0 !important;
+  float: none !important; }
+
+div.articleRgBody {
+  line-height: 200% !important;
+  letter-spacing: 1.5px !important; }

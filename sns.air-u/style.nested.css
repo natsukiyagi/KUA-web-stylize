@@ -1,0 +1,5 @@
+.diaryDetailBox dd div.body,
+.topicDetailBox dd div p,
+.commentList dd div p {
+  line-height: 1.7 !important;
+  letter-spacing: 2px !important; }
