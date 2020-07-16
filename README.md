@@ -1,4 +1,4 @@
-# Google Chrome拡張機能「KUAD Web Stylize」
+# Google Chrome拡張機能「KUA Web Stylize」
 
 ![](https://img.shields.io/github/license/mashape/apistatus.svg)
 
