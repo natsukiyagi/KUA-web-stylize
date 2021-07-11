@@ -13,7 +13,7 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["http://japan.eb.com/*"],
+      "matches": ["https://japan.eb.com/*"],
       "css": ["britannica/article.nested.css"]
     },
     {
