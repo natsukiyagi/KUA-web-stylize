@@ -13,10 +13,6 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["https://magazine.air-u.kyoto-art.ac.jp/feature/*"],
-      "css": ["magazine.air-u/cover.nested.css"]
-    },
-    {
       "matches": ["http://japan.eb.com/*"],
       "css": ["britannica/article.nested.css"]
     },
