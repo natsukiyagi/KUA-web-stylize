@@ -1,15 +1,14 @@
 {
-  "name": "anemo-print-stylize",
+  "name": "KUA Web Stylize",
   "author": "Natsuki Yagi",
   "description": "chrome extension for customize CSS. Styling the web sites for study at Kyoto Art and Design University.",
-  "version": "1.0.1",
+  "version": "2.0.0",
+  "manifest_version": 3,
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png" 
   },
-  "manifest_version": 2,
-  "web_accessible_resources": ["*"],
   "permissions": ["storage"],
   "content_scripts": [
     {
